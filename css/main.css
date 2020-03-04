@@ -1,0 +1,48 @@
+/* SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(51,71,91);
+}
+
+/* BOXES SETTINGS: borders, etc (so che non si dovrebbe usare !important)*/
+/* BORDERS SIDES */
+.border-b {
+  border-bottom: 1px solid #000;
+}
+
+.border-l {
+  border-left: 1px solid #000;
+}
+
+.border-r {
+  border-right: 1px solid #000;
+}
+
+.border-t {
+  border-top: 1px solid #000;
+}
+
+/* REMOVE BORDERS (so che non si dovrebbe usare !important)*/
+
+.no-b {
+  /* no border */
+  border: 1px solid transparent !important;
+}
+
+/* BOXES BG (so che non si dovrebbe usare !important) */
+
+.white {
+  /* white background */
+  background: #FFF;
+}
