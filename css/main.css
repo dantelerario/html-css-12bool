@@ -8,41 +8,71 @@
 
 body {
   font-family: Arial, sans-serif;
+  background: lightgrey;
 }
 
 h2 {
   font-size: 40px;
   color: rgb(51,71,91);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* BOXES SETTINGS: borders, etc (so che non si dovrebbe usare !important)*/
 /* BORDERS SIDES */
+
+.border-big-t {
+  border-top: 5px solid #000 !important;
+}
+
+.border-big-l {
+  border-left: 5px solid #000 !important;
+}
+
+.border-big-r {
+  border-right: 5px solid #000 !important;
+}
+
+.border-big-b {
+  border-bottom: 5px solid #000 !important;
+}
+
+
 .border-b {
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid rgba(0,0,0, 0.3) !important;
 }
 
 .border-l {
-  border-left: 1px solid #000;
+  border-left: 2px solid rgba(0,0,0, 0.3) !important;
 }
 
 .border-r {
-  border-right: 1px solid #000;
+  border-right: 2px solid rgba(0,0,0, 0.3) !important;
 }
 
 .border-t {
-  border-top: 1px solid #000;
+  border-top: 2px solid rgba(0,0,0, 0.3) !important;
 }
 
-/* REMOVE BORDERS (so che non si dovrebbe usare !important)*/
-
-.no-b {
-  /* no border */
-  border: 1px solid transparent !important;
-}
 
 /* BOXES BG (so che non si dovrebbe usare !important) */
 
-.white {
+.w {
   /* white background */
-  background: #FFF;
+  background: #eaeaea !important;
+}
+
+/* IMAGE SETTINGS */
+
+.relative-box {
+  position: relative;
+}
+
+.image img {
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  width: 300%;
+  z-index: 3;
 }

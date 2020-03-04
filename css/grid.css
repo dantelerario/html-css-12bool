@@ -2,8 +2,10 @@
 
 /* CONTAINER */
 .container {
-  width: 100%;
+  width: 50%;
   max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
 }
 
 .container::after {
@@ -14,11 +16,12 @@
 
 [class^="col-"] {
   float: left;
+  height: 50px;
   /* DEBUG: starts  */
   padding: 16px;
   background: lightblue;
-  border: 1px solid #000;
   text-align: left;
+  /* border: 1px solid red; */
   /* DEBUG: ends */
 }
 
@@ -73,6 +76,9 @@
 }
 
 /* OFFSET (MARGIN) */
+.offset-1-reverse {
+ margin-right: calc(100% / 12);
+}
 
 .offset-1 {
   margin-left: calc(100% / 12);
