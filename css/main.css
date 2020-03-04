@@ -9,6 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   background: lightgrey;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -18,6 +19,13 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h3 {
+  font-size: 15px;
+  color: rgb(51,71,91);
+  text-align: center;
+}
+
 
 /* BOXES SETTINGS: borders, etc (so che non si dovrebbe usare !important)*/
 /* BORDERS SIDES */
